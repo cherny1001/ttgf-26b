@@ -1,9 +1,9 @@
 # Tiny Tapeout project information
 project:
-  title:        ""      # Project title
-  author:       ""      # Your name
+  title:        "XORing given bits"      # Project title
+  author:       "Jan Cerny"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  description:  "Oputpus is a XOR of ui_in and uio_in"      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -11,7 +11,7 @@ project:
   tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 3x4 or 4x4
 
   # Your top module name must start with "tt_um_". Make it unique by including your github username:
-  top_module:  "tt_um_example"
+  top_module:  "tt_um_cherny1001_xor"
 
   # List your project's source files here.
   # Source files must be in ./src and you must list each source file separately, one per line.
@@ -23,14 +23,14 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[0]: "Out bit 0"
+  ui[1]: "Out bit 1"
+  ui[2]: "Out bit 2"
+  ui[3]: "Out bit 3"
+  ui[4]: "Out bit 4"
+  ui[5]: "Out bit 5"
+  ui[6]: "Out bit 6"
+  ui[7]: "Out bit 7"
 
   # Outputs
   uo[0]: ""
@@ -43,14 +43,14 @@ pinout:
   uo[7]: ""
 
   # Bidirectional pins
-  uio[0]: ""
-  uio[1]: ""
-  uio[2]: ""
-  uio[3]: ""
-  uio[4]: ""
-  uio[5]: ""
-  uio[6]: ""
-  uio[7]: ""
+  uio[0]: "Cfg input 0"
+  uio[1]: "Cfg input 1"
+  uio[2]: "Cfg input 2"
+  uio[3]: "Cfg input 3"
+  uio[4]: "Cfg input 4"
+  uio[5]: "Cfg input 5"
+  uio[6]: "Cfg input 6"
+  uio[7]: "Cfg input 7"
 
 # Do not change!
 yaml_version: 6
