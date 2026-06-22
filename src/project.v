@@ -6,7 +6,7 @@
 
 module invert_el #
 (
- parameter ADDR
+ parameter ADDR=1
 )
 (
  input wire                   cfg,
@@ -21,8 +21,8 @@ endmodule // invert_el
 
 module less_el #
 (
- parameter LEVEL,
- parameter ADDR
+ parameter LEVEL=1,
+ parameter ADDR=1
 )
 (
  input wire                   cfg,
@@ -47,8 +47,8 @@ endmodule // less_el
   
 module more_el #
 (
- parameter LEVEL,
- parameter ADDR
+ parameter LEVEL=1,
+ parameter ADDR=1
 )
 (
  input wire                   cfg,
