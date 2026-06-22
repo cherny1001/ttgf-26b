@@ -1,5 +1,5 @@
 
-`define LEVELS 5
+`define LEVELS 6
 `define DATA_WIDTH 8
 
 `default_nettype none
