@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+The curcit inverts bits from ui_in according to preset value.
+Presetting is done using uio_in[0] bit and setting ui_in to respective value.
+
 
 ## How to test
 
-Explain how to use your project
+Set ui_in to a value and keep  uio_in[0] high for at least two clock cycles.
+Then set ui_in to any value and read the result from uo_out.
 
-## External hardware
-
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
